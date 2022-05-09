@@ -1,4 +1,6 @@
 import express from 'express';
+import {UsersController} from "./Controllers/UsersController";
+
 const app = express()
 const port = 3000
 
