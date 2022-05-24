@@ -1,3 +1,5 @@
+
+import 'reflect-metadata';
 import express from 'express';
 import {UsersController} from "./Controllers/UsersController";
 
@@ -9,5 +11,5 @@ app.get('/', (request, response) => {
  })
 
 app.listen(port, () => {
-    console.log(`listening on port ${port}`);
+    console.log(`running on port ${port}`);
 })
